@@ -1,0 +1,82 @@
+#root {
+  max-width: 1200px;
+  width: 98%;
+  margin: 0 auto;
+}
+img{
+  width: 100%;
+}
+.Cards{
+  padding: 10px 0px 40px 0px;
+}
+.Cards-Grid{
+  display: grid;
+  grid-template-columns: repeat(3 , 1fr);
+  gap: 30px;
+}
+
+.Card{
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.Card-Description{
+  font-size: 1.5rem;
+  text-wrap: balance;
+}
+.Card-Body{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+}
+.Card-Info{
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  gap: 10px;
+}
+.Card-Info > p{
+  background-color: #dbc5fb;
+  border-radius: 20px;
+  padding: 2.5px 12px;
+  font-weight: 400;
+  color: #6812ef;
+  border: 1px solid #6812ef;
+}
+.Card-Info > p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.Nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.Input{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.Input-Search{
+  width: 100%;
+  padding: 15px 10px;
+  border: none;
+  border: 1px solid #000;
+  border-radius: 20px;
+}
+.Input-Button{
+  padding: 15px 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: #6812ef;
+  color: #ffffff;
+  cursor: pointer;
+}
+.Input-Search:focus {
+  outline: none;
+  border: 1px solid #000;
+}
